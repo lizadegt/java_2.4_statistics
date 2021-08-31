@@ -25,7 +25,7 @@ class StatsServiceTest {
 
         long expected = 15;
 
-        long actual = service.AverageSumMonth(sales);
+        long actual = service.averageSumMonth(sales);
 
         assertEquals(expected, actual);
     }
